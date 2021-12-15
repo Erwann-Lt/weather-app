@@ -107,10 +107,10 @@ const CardExampleCard = ({ weatherData }) => {
               style={{ textAlign: "center", justifyContent: "center" }}
               className="flex"
             >
-              {weatherData.weather[0].main === "Sun" ? (
+              {weatherData.weather[0].main === "Clear" ? (
                 <img
                   alt=""
-                  src="https://media0.giphy.com/media/uqpK3SuxEY4W9YQvdg/giphy.gif?cid=ecf05e47hgxsrnuilipua12y3uvislk0w6cm03e08v8uelvg&rid=giphy.gif&ct=g"
+                  src="https://media3.giphy.com/media/u01ioCe6G8URG/giphy.gif?cid=ecf05e47qdd2vhz30kr0zvgfp17lsl1f3f2qlrxz6hexkjom&rid=giphy.gif&ct=g"
                 />
               ) : null}
             </div>
