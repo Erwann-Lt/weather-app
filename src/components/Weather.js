@@ -110,7 +110,7 @@ const CardExampleCard = ({ weatherData }) => {
               {weatherData.weather[0].main === "Clear" ? (
                 <img
                   alt=""
-                  src="https://media1.giphy.com/media/mno6BJfy8USic/200.webp?cid=ecf05e47qdd2vhz30kr0zvgfp17lsl1f3f2qlrxz6hexkjom&rid=200.webp&ct=g"
+                  src="https://media0.giphy.com/media/lrRZcCBZeHPmNec8og/200w.webp?cid=ecf05e47eyobumlvb3dzo50g3olxa3xyx52272owyquw0l6h&rid=200w.webp&ct=g"
                 />
               ) : null}
             </div>
